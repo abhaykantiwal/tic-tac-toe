@@ -83,7 +83,6 @@ bool logic(){
    if (found){
       return false;
    }
-
    return true;
 }
 
@@ -98,7 +97,6 @@ int main(){
       basic_structure_of_board();
       input_handling();
    }
-
    if (val == 1){
       if (token == 'x'){
          cout << n2 << " has won the match." << endl;
